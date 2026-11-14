@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zégenheiro | Engenharia de Segurança & Combate a Incêndio | Eng. José Luis</title>
+  
+  <!-- Meta SEO & Open Graph -->
+  <meta name="description" content="Projetos de Prevenção e Combate a Incêndio (PPCI), emissão e renovação ágil de AVCB e CLCB, redes de hidrantes, sprinklers e laudos técnicos com ART. Liderado pelo Eng. José Luis no Vale do Paraíba e SP.">
+  <meta name="keywords" content="AVCB, CLCB, PPCI, Combate a Incêndio, Engenharia de Segurança, Eng José Luis, Hidrantes, Sprinklers, Laudo ART, Corpo de Bombeiros, Vale do Paraíba, São José dos Campos">
+  <meta name="author" content="Zégenheiro - Eng. José Luis">
+  
+  <meta property="og:title" content="Zégenheiro | Engenharia de Segurança & Combate a Incêndio">
+  <meta property="og:description" content="Proteja vidas, seu patrimônio e mantenha sua empresa 100% regularizada perante o Corpo de Bombeiros. Atendimento especializado com emissão de ART.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo-symbol.svg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Montserrat (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       BACKGROUND THEMATIC BLUEPRINT & DARK FILM OVERLAY (> 70% OPACITY)
+       Planta técnica com simbologias de hidrantes, reservatórios, sprinklers,
+       tubulações e rotas de fuga sobreposta por película rgba(10, 15, 26, 0.78).
+       ====================================================================== -->
+  <div class="blueprint-background" aria-hidden="true"></div>
+  <div class="blueprint-overlay" aria-hidden="true"></div>
+
+  <!-- ======================================================================
+       BARRA SUPERIOR (PLANTÃO TÉCNICO & WHATSAPP)
+       ====================================================================== -->
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span>🚨 Regularize seu imóvel e evite multas ou interdições no Corpo de Bombeiros</span>
+      <span class="top-bar-divider">|</span>
+      <span>Atendimento Técnico no Vale do Paraíba & SP</span>
+      <span class="top-bar-divider">|</span>
+      <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20gostaria%20de%20tirar%20d%C3%BAvidas%20sobre%20AVCB%2FPPCI%20com%20a%20Z%C3%A9genheiro." target="_blank" rel="noopener noreferrer">
+        WhatsApp Direto: (12) 99768-3642 ➔
+      </a>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       HEADER FIXO COM IDENTIDADE DA MARCA: [LOGO CAPACETE] + ZÉGENHEIRO
+       ====================================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      
+      <!-- Identidade da Marca: [Logo do capacete de combate a incêndio] + Zégenheiro -->
+      <a href="#inicio" class="brand-identity" aria-label="Zégenheiro - Página Inicial">
+        <img src="assets/logo-symbol.svg" alt="Capacete de Combate a Incêndio Zégenheiro" class="brand-helmet-icon">
+        <div class="brand-text-group">
+          <span class="brand-title">Zé<span class="red-accent">genheiro</span></span>
+          <span class="brand-subtitle">Engenharia de Segurança &amp; Incêndio</span>
+        </div>
+      </a>
+
+      <!-- Menu de Navegação -->
+      <nav aria-label="Navegação Principal">
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#riscos" class="nav-link">Por Que Contratar</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre o Eng. José Luis</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Ações do Cabeçalho -->
+      <div class="header-actions">
+        <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20gostaria%20de%20atendimento%20t%C3%A9cnico%20com%20a%20Z%C3%A9genheiro." class="btn-header-wa" target="_blank" rel="noopener noreferrer">
+          <!-- WhatsApp Icon -->
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.42-.101.825z"/>
+          </svg>
+          <span>Falar no WhatsApp</span>
+        </a>
+
+        <!-- Botão Mobile -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Abrir Menu de Navegação">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       HERO SECTION (IMPACTO IMEDIATO & ALTA CONVERSÃO)
+       ====================================================================== -->
+  <section class="hero-section" id="inicio">
+    <div class="container hero-content">
+      
+      <!-- Coluna da Esquerda: Copy Persuasiva & CTAs -->
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Engenharia de Segurança &amp; Combate a Incêndio • Eng. José Luis</span>
+        </div>
+
+        <h1 class="hero-title">
+          Proteja Vidas, Seu Patrimônio e Mantenha Sua Empresa <span class="highlight-red">100% Regularizada</span>.
+        </h1>
+
+        <p class="hero-subtitle">
+          Projetos de Prevenção e Combate a Incêndio (<strong>PPCI</strong>), emissão e renovação ágil de <strong>AVCB / CLCB</strong> com responsabilidade técnica (<strong>ART</strong>) pelo <strong>Eng. José Luis</strong>. Elimine riscos de interdição, multas e paralisações pelo Corpo de Bombeiros com quem domina a legislação técnica.
+        </p>
+
+        <!-- Botões Principais de Conversão -->
+        <div class="hero-buttons">
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20projeto%20de%20combate%20a%20inc%C3%AAndio%20%2F%20AVCB%20com%20a%20Z%C3%A9genheiro." class="btn-primary-wa" target="_blank" rel="noopener noreferrer">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.42-.101.825z"/>
+            </svg>
+            <span>Solicitar Orçamento no WhatsApp</span>
+          </a>
+
+          <a href="#servicos" class="btn-secondary">
+            <span>Conheça Nossos Serviços</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Badges de Autoridade e Confiança -->
+        <div class="authority-badges-grid">
+          <div class="auth-badge-item">
+            <div class="auth-badge-icon">
+              <!-- Shield / ART icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <path d="M9 12l2 2 4-4"/>
+              </svg>
+            </div>
+            <div class="auth-badge-text">
+              <h4>ART Inclusa (CREA-SP)</h4>
+              <p>Responsabilidade técnica formal emitida por engenheiro habilitado.</p>
+            </div>
+          </div>
+
+          <div class="auth-badge-item">
+            <div class="auth-badge-icon red">
+              <!-- Fire Flame icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/>
+              </svg>
+            </div>
+            <div class="auth-badge-text">
+              <h4>Aprovação no CBPMESP</h4>
+              <p>Processos no Via Fácil Bombeiros sem travamento de exigências.</p>
+            </div>
+          </div>
+
+          <div class="auth-badge-item">
+            <div class="auth-badge-icon amber">
+              <!-- Map Pin icon -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <div class="auth-badge-text">
+              <h4>Vale do Paraíba &amp; SP</h4>
+              <p>SJC, Taubaté, Jacareí, Litoral Norte e toda a Região.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Coluna da Direita: Card Técnico com Formulário Rápido -->
+      <div class="hero-cad-card">
+        <div class="hero-cad-header">
+          <span class="cad-badge">CAD/BIM COMPLIANT • NBR &amp; IT</span>
+          <div class="cad-engineer-pill">
+            <span class="status-indicator"></span>
+            <span>Eng. José Luis Online</span>
+          </div>
+        </div>
+
+        <h3 class="hero-form-title">Análise Técnica Inicial Gratuita</h3>
+        <p class="hero-form-desc">Preencha os dados básicos do seu imóvel para receber um pré-diagnóstico direto no WhatsApp:</p>
+
+        <form id="heroQuoteForm">
+          <div class="form-group">
+            <label for="heroNome" class="form-label">Seu Nome / Empresa:</label>
+            <input type="text" id="heroNome" class="form-control" placeholder="Ex: Carlos Mendes - Construtora Apex" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="heroTelefone" class="form-label">WhatsApp:</label>
+              <input type="tel" id="heroTelefone" class="form-control" placeholder="(12) 99999-9999" required>
+            </div>
+            <div class="form-group">
+              <label for="heroCidade" class="form-label">Cidade / Região:</label>
+              <input type="text" id="heroCidade" class="form-control" placeholder="Ex: São José dos Campos" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="heroTipo" class="form-label">Tipo de Edificação:</label>
+            <select id="heroTipo" class="form-control" required>
+              <option value="Galpão Industrial / Logístico">Galpão Industrial / Logístico</option>
+              <option value="Comércio / Loja / Shopping">Comércio / Loja / Shopping</option>
+              <option value="Condomínio Residencial ou Comercial">Condomínio Residencial ou Comercial</option>
+              <option value="Escritório / Clínica / Escola">Escritório / Clínica / Escola</option>
+              <option value="Adequação de Notificação / Multa">Adequação de Notificação / Multa</option>
+              <option value="Outro Imóvel Comercial">Outro Imóvel Comercial</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-form-submit">
+            <!-- Paper Plane Send Icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            <span>Enviar e Falar com Eng. José Luis</span>
+          </button>
+
+          <div class="form-secure-notice">
+            <!-- Lock Icon -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+            </svg>
+            <span>Seus dados são confidenciais. Contato direto sem intermediários.</span>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: OS RISCOS DE OPERAR SEM PROJETO APROVADO (COPY PERSUASIVA)
+       ====================================================================== -->
+  <section class="section-padding" id="riscos">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">A Gravidade da Irregularidade</span>
+        <h2 class="section-title">A Segurança Contra Incêndio Não É Apenas Uma Burocracia: É a Garantia da Vida e do Seu Negócio</h2>
+        <p class="section-description">
+          Operar sem o Auto de Vistoria do Corpo de Bombeiros (AVCB) ou com projeto desatualizado expõe sua empresa a penalidades extremas e coloca ocupantes em risco iminente.
+        </p>
+      </div>
+
+      <!-- Grid dos 4 Grandes Riscos -->
+      <div class="risks-grid">
+        
+        <div class="risk-card">
+          <div class="risk-icon-wrapper">
+            <!-- Gavel / Legal Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 13l-7.5 7.5c-.8.8-2.2.8-3 0s-.8-2.2 0-3L11 10"/>
+              <path d="M16 16l6-6"/>
+              <path d="M8 8l6-6"/>
+              <path d="M9 7l8 8"/>
+              <path d="M21 11l-8-8"/>
+            </svg>
+          </div>
+          <h3 class="risk-title">Responsabilidade Civil e Criminal</h3>
+          <p class="risk-text">
+            Síndicos, diretores e gestores respondem criminalmente e com seu patrimônio pessoal caso ocorra qualquer acidente em edificações sem licença do Corpo de Bombeiros ou sem manutenção adequada dos sistemas de escape.
+          </p>
+        </div>
+
+        <div class="risk-card">
+          <div class="risk-icon-wrapper">
+            <!-- Alert / Ban Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line>
+            </svg>
+          </div>
+          <h3 class="risk-title">Interdição Imediata &amp; Lacração</h3>
+          <p class="risk-text">
+            O Corpo de Bombeiros e as Prefeituras possuem poder de polícia para aplicar autos de infração com multas pesadas e lacrar imediatamente galpões, fábricas e comércios irregulares, paralisando sua fonte de renda.
+          </p>
+        </div>
+
+        <div class="risk-card">
+          <div class="risk-icon-wrapper">
+            <!-- File Warning / Insurance Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <line x1="9" y1="15" x2="15" y2="15"></line>
+            </svg>
+          </div>
+          <h3 class="risk-title">Recusa Total de Indenização de Seguros</h3>
+          <p class="risk-text">
+            Em caso de princípio de incêndio, curto-circuito ou sinistro, as seguradoras recusam legalmente a indenização caso o imóvel não disponha de AVCB vigente ou se as instalações estiverem em desacordo com as normas da ABNT.
+          </p>
+        </div>
+
+        <div class="risk-card">
+          <div class="risk-icon-wrapper">
+            <!-- Heart Pulse / Life Safety Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+              <polyline points="12 11 12 17 9 14"></polyline>
+            </svg>
+          </div>
+          <h3 class="risk-title">Risco Imensurável à Vida Humana</h3>
+          <p class="risk-text">
+            Portas de emergência emperradas, ausência de sinalização fotoluminescente, bombas inoperantes ou detectores inativos transformam ocorrências controláveis em tragédias irreparáveis de perdas de vidas.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Banner Solução da Engenharia -->
+      <div class="engineering-solution-banner">
+        <div class="solution-content">
+          <h3>A Engenharia Preventiva é o Seu Investimento Mais Rentável</h3>
+          <p>
+            Com a consultoria técnica do Eng. José Luis, cada real investido se reverte em segurança patrimonial jurídica, continuidade operacional ininterrupta e na certeza de que seus colaboradores e clientes estão devidamente protegidos.
+          </p>
+        </div>
+        <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20quero%20regularizar%20minha%20empresa%20e%20evitar%20riscos%20de%20interdi%C3%A7%C3%A3o." class="btn-primary-wa" target="_blank" rel="noopener noreferrer">
+          Regularizar Minha Empresa Agora
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: NOSSOS SERVIÇOS ESPECIALIZADOS
+       ====================================================================== -->
+  <section class="section-padding cad-grid-pattern" id="servicos">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Soluções Completas de Engenharia</span>
+        <h2 class="section-title">Serviços Técnicos Especializados em Combate a Incêndio</h2>
+        <p class="section-description">
+          Da elaboração de projetos complexos à tramitação final no Corpo de Bombeiros. Atuação integral com emissão de ART registrada no CREA.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Serviço 1: PPCI -->
+        <div class="service-card highlight">
+          <span class="service-badge">IT-01 • NBR 13714</span>
+          <div class="service-icon-box">
+            <!-- Compass / Architecture Blueprint Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+            </svg>
+          </div>
+          <h3 class="service-title">Projeto de Combate a Incêndio (PPCI)</h3>
+          <p class="service-text">
+            Desenvolvimento completo de plantas técnicas com locação de hidrantes, iluminação de emergência, saídas de escape, alarme e compartimentação. Memoriais de cálculo hidráulico e aprovação ágil.
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Dimensionamento em CAD/BIM conforme ITs
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Cálculo hidráulico de perda de carga
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Aprovação sem retrabalho no CBPMESP
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20tenho%20interesse%20em%20elaborar%20um%20Projeto%20de%20Combate%20a%20Inc%C3%AAndio%20(PPCI)." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Orçar Projeto PPCI</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+        <!-- Serviço 2: AVCB / CLCB -->
+        <div class="service-card highlight">
+          <span class="service-badge">VIA FÁCIL BOMBEIROS</span>
+          <div class="service-icon-box">
+            <!-- Badge / Certified Document Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Emissão e Renovação de AVCB / CLCB</h3>
+          <p class="service-text">
+            Gestão integral do processo de obtenção e renovação do Auto de Vistoria (AVCB) ou Certificado de Licença (CLCB). Acompanhamento presencial da vistoria dos bombeiros e saneamento de exigências (FAT).
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Protocolo e acompanhamento no Via Fácil
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Vistoria prévia minuciosa no local
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Agilidade na liberação do alvará final
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20preciso%20emitir%20ou%20renovar%20meu%20AVCB%2FCLCB." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Emitir / Renovar AVCB</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+        <!-- Serviço 3: Redes Hidráulicas & Sprinklers -->
+        <div class="service-card">
+          <span class="service-badge">NBR 10897 • NBR 13714</span>
+          <div class="service-icon-box">
+            <!-- Waves / Water Pipe Droplet Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Adequação Hidráulica e Sprinklers</h3>
+          <p class="service-text">
+            Dimensionamento e comissionamento de redes de hidrantes, sistemas de chuveiros automáticos (sprinklers), bombas de incêndio (elétrica e motor diesel) e Reservatórios Técnicos de Incêndio (RTI).
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Testes de vazão e pressão em abrigos
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Adequação de barriletes e bombas
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Testes de estanqueidade com laudo
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20preciso%20de%20dimensionamento%20ou%20adequa%C3%A7%C3%A3o%20de%20rede%20de%20hidrantes%2Fsprinklers." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Adequação de Redes</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+        <!-- Serviço 4: Laudos Técnicos & ART -->
+        <div class="service-card">
+          <span class="service-badge">CREA-SP • ART</span>
+          <div class="service-icon-box">
+            <!-- File Text / Report Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+          </div>
+          <h3 class="service-title">Laudos Técnicos e Emissão de ART</h3>
+          <p class="service-text">
+            Emissão de Laudos de Conformidade das instalações de combate a incêndio, laudo CMAR (Controle de Materiais de Acabamento e Revestimento), laudo de SPDA (Para-raios) e instalações elétricas.
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              ART registrada pelo Eng. José Luis
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Validade jurídica perante seguradoras
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Vistorias periciais e diagnósticos
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20preciso%20de%20Laudos%20T%C3%A9cnicos%20com%20emiss%C3%A3o%20de%20ART." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Solicitar Laudo com ART</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+        <!-- Serviço 5: Sinalização & Rotas de Fuga -->
+        <div class="service-card">
+          <span class="service-badge">IT-20 • NBR 13434</span>
+          <div class="service-icon-box">
+            <!-- Exit Sign / Directional Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+              <polyline points="16 17 21 12 16 7"></polyline>
+              <line x1="21" y1="12" x2="9" y2="12"></line>
+            </svg>
+          </div>
+          <h3 class="service-title">Sinalização de Emergência &amp; Rotas</h3>
+          <p class="service-text">
+            Projeto e locação de placas fotoluminescentes normatizadas, iluminação de emergência com autonomia garantida, portas corta-fogo com barra antipânico e cálculo de lotação e dimensionamento de saídas.
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Mapeamento de rotas de evacuação
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Sinalização fotoluminescente certificada
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Portas corta-fogo P-90 e P-120
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20preciso%20de%20projeto%20de%20sinaliza%C3%A7%C3%A3o%20de%20emerg%C3%AAncia%20e%20rotas%20de%20fuga." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Adequar Sinalização</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+        <!-- Serviço 6: Brigada & Consultoria -->
+        <div class="service-card">
+          <span class="service-badge">IT-17 • CAPACITAÇÃO</span>
+          <div class="service-icon-box">
+            <!-- Users / Training Team Icon -->
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+            </svg>
+          </div>
+          <h3 class="service-title">Consultoria &amp; Brigada de Incêndio</h3>
+          <p class="service-text">
+            Formação teórica e prática de brigadistas de incêndio em conformidade com a Instrução Técnica nº 17 do CBPMESP. Elaboração do Plano de Abandono de Área e simulados preventivos periódicos.
+          </p>
+          <ul class="service-features-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Treinamento com certificado válido
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Plano de Emergência contra Incêndio
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              Auditoria de segurança em condomínios
+            </li>
+          </ul>
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20preciso%20de%20treinamento%20de%20Brigada%20de%20Inc%C3%AAndio%20ou%20Plano%20de%20Emerg%C3%AAncia." class="btn-card-action" target="_blank" rel="noopener noreferrer">
+            <span>Agendar Treinamento</span>
+            <span>➔</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: DIFERENCIAIS DA ZÉGENHEIRO
+       ====================================================================== -->
+  <section class="section-padding" id="diferenciais">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Por Que a Zégenheiro</span>
+        <h2 class="section-title">O Padrão de Excelência que Garante a Sua Tranquilidade</h2>
+        <p class="section-description">
+          Unimos rigor técnico com foco em viabilidade financeira, projetando com inteligência para não onerar desnecessariamente a sua obra.
+        </p>
+      </div>
+
+      <div class="authority-badges-grid" style="border: none; padding-top: 0; grid-template-columns: repeat(4, 1fr);">
+        
+        <div class="risk-card" style="border-color: var(--border-cad);">
+          <div class="risk-icon-wrapper" style="background: rgba(56, 189, 248, 0.15); color: var(--tech-cyan);">
+            <!-- User Check Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+              <circle cx="8.5" cy="7" r="4"></circle>
+              <polyline points="17 11 19 13 23 9"></polyline>
+            </svg>
+          </div>
+          <h3 class="risk-title">Engenheiro Dedicado</h3>
+          <p class="risk-text">Seu projeto é tratado diretamente pelo Eng. José Luis do início à entrega, sem estagiários ou intermediários desinformados.</p>
+        </div>
+
+        <div class="risk-card" style="border-color: var(--border-cad);">
+          <div class="risk-icon-wrapper" style="background: rgba(245, 158, 11, 0.15); color: var(--safety-amber);">
+            <!-- Zap / Speed Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h3 class="risk-title">Aprovação Ágil</h3>
+          <p class="risk-text">Conhecimento aprofundado das exigências do CBPMESP para sanar dúvidas dos vistoriadores logo no primeiro protocolo.</p>
+        </div>
+
+        <div class="risk-card" style="border-color: var(--border-cad);">
+          <div class="risk-icon-wrapper" style="background: rgba(34, 197, 94, 0.15); color: var(--wa-green);">
+            <!-- Dollar / Economy Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="1" x2="12" y2="23"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <h3 class="risk-title">Economia Inteligente</h3>
+          <p class="risk-text">Dimensionamos com exatidão matemática o que a norma exige, evitando a compra inútil de bombas e reservatórios superdimensionados.</p>
+        </div>
+
+        <div class="risk-card" style="border-color: var(--border-cad);">
+          <div class="risk-icon-wrapper" style="background: rgba(239, 68, 68, 0.15); color: var(--fire-red);">
+            <!-- Shield Lock Icon -->
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <h3 class="risk-title">Segurança Jurídica</h3>
+          <p class="risk-text">Emissão de Anotação de Responsabilidade Técnica (ART) pelo CREA-SP, blindando a diretoria e síndicos perante a lei.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: SOBRE O ENG. JOSÉ LUIS & ZÉGENHEIRO
+       ====================================================================== -->
+  <section class="section-padding cad-grid-pattern" id="sobre">
+    <div class="container">
+      
+      <div class="about-grid">
+        
+        <!-- Perfil Técnico e Selo do Engenheiro -->
+        <div class="about-card-profile">
+          <div class="profile-avatar-frame">
+            <div class="profile-avatar-inner">
+              <!-- Technical Engineer Avatar Illustration -->
+              <svg viewBox="0 0 100 100" fill="none">
+                <!-- Suit & Tie -->
+                <path d="M25 90 L38 65 L62 65 L75 90 Z" fill="#1e293b" />
+                <polygon points="50,68 45,82 50,92 55,82" fill="#ef4444" />
+                <polygon points="46,65 54,65 52,68 48,68" fill="#ffffff" />
+                <!-- Head & Face -->
+                <ellipse cx="50" cy="45" rx="16" ry="18" fill="#fcd34d" />
+                <!-- Engineer Glasses -->
+                <rect x="40" y="42" width="8" height="6" rx="2" fill="none" stroke="#0f172a" stroke-width="1.5" />
+                <rect x="52" y="42" width="8" height="6" rx="2" fill="none" stroke="#0f172a" stroke-width="1.5" />
+                <line x1="48" y1="45" x2="52" y2="45" stroke="#0f172a" stroke-width="1.5" />
+                <!-- Smile -->
+                <path d="M46 54 Q50 58 54 54" stroke="#0f172a" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+                <!-- Hardhat Helmet -->
+                <path d="M30 38 C30 22 40 16 50 16 C60 16 70 22 70 38 Z" fill="#dc2626" />
+                <path d="M26 38 C34 36 66 36 74 38 L76 41 L24 41 Z" fill="#f59e0b" />
+                <!-- Shield crest on helmet -->
+                <polygon points="50,22 54,26 50,32 46,26" fill="#fef08a" />
+              </svg>
+            </div>
+          </div>
+
+          <h3 class="profile-name">Eng. José Luis</h3>
+          <p class="profile-title">Engenheiro Responsável Técnico</p>
+          <div class="profile-crea-tag">
+            <span>CREA-SP ATIVO • ART INCLUSA</span>
+          </div>
+
+          <div class="profile-stats-row">
+            <div class="profile-stat-box">
+              <h5>+100%</h5>
+              <p>Aprovações</p>
+            </div>
+            <div class="profile-stat-box">
+              <h5>+150k</h5>
+              <p>m² Projetados</p>
+            </div>
+            <div class="profile-stat-box">
+              <h5>Zero</h5>
+              <p>Interdições</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Biografia Profissional e Missão -->
+        <div class="about-bio">
+          <span class="section-tag">Responsabilidade Técnica &amp; Confiança</span>
+          <h3>Engenharia com Compromisso Ético, Salvaguarda de Vidas e Rigor Técnico</h3>
+          
+          <p>
+            A <strong>Zégenheiro</strong> nasceu da convicção de que a engenharia de segurança contra incêndio deve ser um pilar de sustentabilidade e tranquilidade para empresas, indústrias e condomínios. Liderada pelo <strong>Eng. José Luis</strong>, a empresa atua com profunda dedicação ao cumprimento rigoroso das normas da ABNT e das Instruções Técnicas do Corpo de Bombeiros da Polícia Militar do Estado de São Paulo.
+          </p>
+
+          <p>
+            Com sólida experiência prática em vistorias, projetos hidráulicos de alta complexidade e relacionamento técnico com os órgãos de fiscalização, o Eng. José Luis destaca-se pela transparência orçamentária, pontualidade no cumprimento de prazos e pela capacidade de resolver pendências técnicas complexas que outros profissionais deixaram travar.
+          </p>
+
+          <div class="about-values-grid">
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <h5>Transparência Orçamentária</h5>
+                <p>Escopo detalhado sem taxas ocultas ou custos surpresa durante a tramitação.</p>
+              </div>
+            </div>
+
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <h5>Cumprimento Rigoroso de Prazos</h5>
+                <p>Respeito absoluto aos prazos contratuais e às exigências de datas do Corpo de Bombeiros.</p>
+              </div>
+            </div>
+
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <h5>Atendimento Consultivo</h5>
+                <p>Orientação clara e direta para que diretores e síndicos compreendam exatamente o que a lei exige.</p>
+              </div>
+            </div>
+
+            <div class="about-value-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              <div>
+                <h5>Cobertura Regional Completa</h5>
+                <p>Presença ativa no Vale do Paraíba, Serra da Mantiqueira, Litoral Norte e Região Metropolitana.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20gostaria%20de%20conversar%20sobre%20a%20regulariza%C3%A7%C3%A3o%20do%20meu%20im%C3%B3vel." class="btn-primary-wa" target="_blank" rel="noopener noreferrer">
+            Falar Diretamente com o Eng. José Luis
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: DEPOIMENTOS DE CLIENTES (PROVA SOCIAL)
+       ====================================================================== -->
+  <section class="section-padding" id="depoimentos">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Depoimentos Reais</span>
+        <h2 class="section-title">O Que Dizem os Gestores que Confiaram na Zégenheiro</h2>
+        <p class="section-description">
+          A satisfação e tranquilidade de quem já teve seu PPCI aprovado e seu AVCB emitido com o Eng. José Luis.
+        </p>
+      </div>
+
+      <div class="testimonials-grid">
+        
+        <!-- Depoimento 1: Indústria -->
+        <div class="testimonial-card">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "Estávamos com o galpão fabril de 14.000m² notificado e correndo sério risco de interdição. O Eng. José Luis assumiu a adequação do anel de hidrantes e a tramitação do AVCB com uma velocidade impressionante. Em poucas semanas conseguimos a aprovação definitiva sem nenhuma exigência pendente. Profissionalismo e clareza excepcionais!"
+          </p>
+          <div class="testimonial-author-group">
+            <div class="author-avatar">CM</div>
+            <div class="author-info">
+              <h4>Carlos E. Mendes</h4>
+              <p>Diretor de Operações • Vanguard Indústria</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 2: Condomínio -->
+        <div class="testimonial-card">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "Renovar o AVCB de um complexo residencial de 3 torres com mais de 300 famílias sempre era desgastante. O José Luis fez uma vistoria detalhada, apontou apenas o que era estritamente obrigatório sem custos desnecessários, capacitou nossa brigada e nos entregou o alvará em mãos. Recomendo de olhos fechados!"
+          </p>
+          <div class="testimonial-author-group">
+            <div class="author-avatar">PA</div>
+            <div class="author-info">
+              <h4>Patrícia F. Alvarenga</h4>
+              <p>Síndica Profissional • Grand Tower Condomínios</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Depoimento 3: Logística / Construtora -->
+        <div class="testimonial-card">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p class="testimonial-quote">
+            "A Zégenheiro é nossa parceira de referência em todos os centros de distribuição que implantamos no Vale do Paraíba. Projetos hidráulicos de sprinklers e bombas impecáveis, memoriais exatos e aprovação rápida no sistema dos Bombeiros. O domínio das Instruções Técnicas do José Luis é inquestionável."
+          </p>
+          <div class="testimonial-author-group">
+            <div class="author-avatar">MT</div>
+            <div class="author-info">
+              <h4>Eng. Marcos V. Toledo</h4>
+              <p>Gerente de Implantação • Apex Logística Integrada</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CARROSSEL INFINITO DE CLIENTES (MARQUEE / LOGO TICKER)
+       Faixa contínua animada exibindo marcas fictícias atendidas
+       ====================================================================== -->
+  <section class="marquee-wrapper" aria-label="Clientes e Setores Atendidos">
+    <div class="container marquee-title-box">
+      <h4>Empresas, Centros Logísticos e Condomínios de Referência</h4>
+    </div>
+
+    <div class="marquee-track-container">
+      <div class="marquee-track" id="marqueeTrack">
+        
+        <!-- Logo 1: Vanguard Indústria -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+          <div>
+            <span class="client-logo-text">VANGUARD</span>
+            <span class="client-logo-category">Indústria Metalmecânica</span>
+          </div>
+        </div>
+
+        <!-- Logo 2: Apex Logística -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="1" y="3" width="15" height="13"></rect>
+            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+            <circle cx="5.5" cy="18.5" r="2.5"></circle>
+            <circle cx="18.5" cy="18.5" r="2.5"></circle>
+          </svg>
+          <div>
+            <span class="client-logo-text">APEX LOGÍSTICA</span>
+            <span class="client-logo-category">Centros de Distribuição</span>
+          </div>
+        </div>
+
+        <!-- Logo 3: Titan Engenharia -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16"></path>
+          </svg>
+          <div>
+            <span class="client-logo-text">TITAN ENGENHARIA</span>
+            <span class="client-logo-category">Construção &amp; Obras</span>
+          </div>
+        </div>
+
+        <!-- Logo 4: Horizonte Condomínios -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          </svg>
+          <div>
+            <span class="client-logo-text">HORIZONTE</span>
+            <span class="client-logo-category">Gestão Condominial</span>
+          </div>
+        </div>
+
+        <!-- Logo 5: Metrópole Center Mall -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <div>
+            <span class="client-logo-text">METRÓPOLE CENTER</span>
+            <span class="client-logo-category">Shopping &amp; Retail</span>
+          </div>
+        </div>
+
+        <!-- Logo 6: Valetec Manufatura -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+          <div>
+            <span class="client-logo-text">VALETEC</span>
+            <span class="client-logo-category">Manufatura de Precisão</span>
+          </div>
+        </div>
+
+        <!-- Logo 7: Alfa Farma -->
+        <div class="client-logo-pill">
+          <svg class="client-logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2v20M2 12h20"></path>
+          </svg>
+          <div>
+            <span class="client-logo-text">ALFA FARMA</span>
+            <span class="client-logo-category">Distribuidora Médica</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: SIMULADOR INTERATIVO / CALCULADORA DE REGULARIZAÇÃO
+       ====================================================================== -->
+  <section class="section-padding" id="simulador">
+    <div class="container container-narrow">
+      
+      <div class="section-header">
+        <span class="section-tag">Diagnóstico Personalizado</span>
+        <h2 class="section-title">Simulador Rápido de Regularização e Custos</h2>
+        <p class="section-description">
+          Selecione as características do seu imóvel para gerar uma proposta técnica preliminar sob medida.
+        </p>
+      </div>
+
+      <div class="calculator-card">
+        
+        <div class="calc-steps-grid">
+          
+          <!-- Passo 1: Tipo de Edificação -->
+          <div class="calc-step-box">
+            <h5><span class="step-number">1</span> Tipo de Edificação</h5>
+            <div class="calc-btn-group">
+              <button type="button" class="calc-option-btn selected" data-calc-tipo="Galpão Industrial / Logístico">
+                <span>Galpão Industrial</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-tipo="Comércio / Loja / Shopping">
+                <span>Comércio / Lojas</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-tipo="Condomínio Residencial">
+                <span>Condomínio Residencial</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-tipo="Escritório / Clínica">
+                <span>Escritório / Clínica</span>
+                <span>➔</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Passo 2: Metragem Aproximada -->
+          <div class="calc-step-box">
+            <h5><span class="step-number">2</span> Área Construída (m²)</h5>
+            <div class="calc-btn-group">
+              <button type="button" class="calc-option-btn" data-calc-area="Até 750 m² (CLCB)">
+                <span>Até 750 m² (CLCB)</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-area="750 m² a 1.500 m²">
+                <span>750 a 1.500 m²</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn selected" data-calc-area="1.500m² a 5.000m²">
+                <span>1.500 a 5.000 m²</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-area="Mais de 5.000 m² (Alto Risco)">
+                <span>Mais de 5.000 m²</span>
+                <span>➔</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Passo 3: Situação Atual -->
+          <div class="calc-step-box">
+            <h5><span class="step-number">3</span> Situação Atual</h5>
+            <div class="calc-btn-group">
+              <button type="button" class="calc-option-btn selected" data-calc-sit="Projeto Novo / Implantação de PPCI">
+                <span>Projeto Novo (PPCI)</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-sit="Renovação de AVCB Vencido">
+                <span>Renovação de AVCB</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-sit="Recebeu Notificação / Multa">
+                <span>Recebeu Notificação</span>
+                <span>➔</span>
+              </button>
+              <button type="button" class="calc-option-btn" data-calc-sit="Laudo Técnico / Vistoria ART">
+                <span>Laudo Técnico &amp; ART</span>
+                <span>➔</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Barra de Resultado & Envio WhatsApp -->
+        <div class="calc-output-bar">
+          <div class="calc-summary-text">
+            <h4>Resumo da Sua Configuração:</h4>
+            <p id="calcSummaryText">Galpão Industrial • Área: 1.500m² a 5.000m² • Situação: Projeto Novo</p>
+          </div>
+
+          <a href="#" id="calcWaBtn" class="btn-primary-wa" target="_blank" rel="noopener noreferrer">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.42-.101.825z"/>
+            </svg>
+            <span>Gerar Orçamento no WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: PERGUNTAS FREQUENTES (FAQ TÉCNICO)
+       ====================================================================== -->
+  <section class="section-padding cad-grid-pattern" id="faq">
+    <div class="container container-narrow">
+      
+      <div class="section-header">
+        <span class="section-tag">Dúvidas Técnicas</span>
+        <h2 class="section-title">Perguntas Frequentes Sobre PPCI, AVCB e Legalização</h2>
+        <p class="section-description">
+          Respostas claras e diretas para as dúvidas mais comuns dos nossos clientes.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        
+        <div class="faq-item active">
+          <button type="button" class="faq-question-btn">
+            <span>O que é o AVCB e quando minha empresa é obrigada a possuir?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              O AVCB (Auto de Vistoria do Corpo de Bombeiros) é o documento oficial que comprova que a edificação possui todas as condições de segurança contra incêndio exigidas pela legislação estadual. Ele é obrigatório para construção, reforma, ampliação, mudança de ocupação ou renovação periódica (geralmente a cada 1 a 5 anos, dependendo do risco). Sem ele, a empresa não obtém alvará de funcionamento da Prefeitura e as apólices de seguro perdem a validade.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn">
+            <span>Qual a diferença prática entre AVCB e CLCB?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              O CLCB (Certificado de Licença do Corpo de Bombeiros) aplica-se a edificações de baixo potencial de risco, geralmente com área construída de até 750 m², até 3 pavimentos e baixa carga combustível. O AVCB é exigido para imóveis com área superior a 750 m² ou que possuam sistemas fixos complexos (como hidrantes e sprinklers). Ambos possuem o mesmo valor legal de regularização.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn">
+            <span>Por que a emissão da ART pelo Eng. José Luis é indispensável?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              A Anotação de Responsabilidade Técnica (ART) é o instrumento legal emitido junto ao CREA que vincula formalmente o engenheiro aos cálculos, projetos e vistorias executadas. O Corpo de Bombeiros exige a ART para deferir qualquer processo. Além disso, a ART protege juridicamente os diretores e síndicos, demonstrando que todas as medidas preventivas foram calculadas e atestadas por um profissional legalmente habilitado.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button type="button" class="faq-question-btn">
+            <span>Minha empresa recebeu um Auto de Notificação com prazo. O que fazer?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Você deve entrar em contato imediato com um engenheiro de segurança. O Eng. José Luis realiza a análise do documento emitido pelos Bombeiros, identifica as adequações físicas ou documentais necessárias e pode solicitar formalmente a prorrogação de prazo ou apresentar o pedido de reconsideração técnica (FAT), evitando a lavratura de multas ou o lacre do imóvel.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SEÇÃO: CONTATO & LOCALIZAÇÃO
+       ====================================================================== -->
+  <section class="section-padding" id="contato">
+    <div class="container">
+      
+      <div class="section-header">
+        <span class="section-tag">Canal Técnico Direto</span>
+        <h2 class="section-title">Entre em Contato com a Zégenheiro</h2>
+        <p class="section-description">
+          Solicite seu orçamento, tire dúvidas técnicas ou agende uma vistoria preliminar com o Eng. José Luis.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Cartão de Informações de Contato -->
+        <div class="contact-info-card">
+          
+          <div class="contact-item">
+            <div class="contact-item-icon green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.42-.101.825z"/>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <h5>WhatsApp / Telefone Direto</h5>
+              <p><a href="https://wa.me/5512997683642" target="_blank" rel="noopener noreferrer"><strong>+55 (12) 99768-3642</strong></a></p>
+              <p style="font-size: 0.8rem; color: var(--text-dim);">Atendimento ágil pelo WhatsApp para todo o Estado de SP.</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <!-- Map Pin Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <h5>Região de Atuação Presencial</h5>
+              <p>São José dos Campos, Jacareí, Taubaté, Pindamonhangaba, Caçapava, Guaratinguetá, Litoral Norte e Grande SP.</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <!-- Clock / Schedule Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <h5>Horário de Atendimento Técnico</h5>
+              <p>Segunda a Sexta: 08h00 às 18h30</p>
+              <p style="font-size: 0.8rem; color: var(--text-dim);">Plantão para urgências e notificações do Corpo de Bombeiros.</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <!-- Shield Check Icon -->
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <polyline points="9 12 11 14 15 10"></polyline>
+              </svg>
+            </div>
+            <div class="contact-item-text">
+              <h5>Responsável Técnico</h5>
+              <p><strong>Eng. José Luis</strong> • CREA-SP</p>
+              <p style="font-size: 0.8rem; color: var(--text-dim);">Especialista em Segurança Contra Incêndio e Pânico.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Formulário Rápido de Contato -->
+        <div class="contact-form-card">
+          <h3 class="hero-form-title" style="margin-bottom: 6px;">Solicitar Contato Imediato</h3>
+          <p class="hero-form-desc" style="margin-bottom: 24px;">Envie sua mensagem para que o Eng. José Luis retorne com uma solução técnica:</p>
+
+          <form id="mainContactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactNome" class="form-label">Nome Completo:</label>
+                <input type="text" id="contactNome" class="form-control" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmpresa" class="form-label">Empresa / Condomínio:</label>
+                <input type="text" id="contactEmpresa" class="form-control" placeholder="Nome da empresa ou condomínio">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contactTelefone" class="form-label">WhatsApp com DDD:</label>
+                <input type="tel" id="contactTelefone" class="form-control" placeholder="(12) 99999-9999" required>
+              </div>
+              <div class="form-group">
+                <label for="contactServico" class="form-label">Serviço de Interesse:</label>
+                <select id="contactServico" class="form-control" required>
+                  <option value="Emissão ou Renovação de AVCB/CLCB">Emissão ou Renovação de AVCB/CLCB</option>
+                  <option value="Projeto de Combate a Incêndio (PPCI)">Projeto de Combate a Incêndio (PPCI)</option>
+                  <option value="Adequação de Notificação / Exigência">Adequação de Notificação / Exigência</option>
+                  <option value="Redes de Hidrantes e Sprinklers">Redes de Hidrantes e Sprinklers</option>
+                  <option value="Laudos Técnicos e ART">Laudos Técnicos e ART</option>
+                  <option value="Treinamento de Brigada de Incêndio">Treinamento de Brigada de Incêndio</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contactMensagem" class="form-label">Detalhes do Imóvel / Dúvidas:</label>
+              <textarea id="contactMensagem" class="form-control" rows="3" placeholder="Conte brevemente sobre o imóvel, metragem aproximada, se possui hidrantes ou se recebeu alguma notificação..."></textarea>
+            </div>
+
+            <button type="submit" class="btn-form-submit">
+              <!-- Send Icon -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span>Enviar Mensagem ao Eng. José Luis</span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       RODAPÉ COMPLETO COM MARCA: [LOGO CAPACETE] + ZÉGENHEIRO
+       ====================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        
+        <!-- Coluna 1: Marca & Descrição -->
+        <div class="footer-brand-box">
+          <a href="#inicio" class="brand-identity" aria-label="Zégenheiro - Início">
+            <img src="assets/logo-symbol.svg" alt="Capacete de Combate a Incêndio Zégenheiro" class="brand-helmet-icon">
+            <div class="brand-text-group">
+              <span class="brand-title">Zé<span class="red-accent">genheiro</span></span>
+              <span class="brand-subtitle">Engenharia de Segurança &amp; Incêndio</span>
+            </div>
+          </a>
+
+          <p class="footer-desc">
+            Consultoria e projetos especializados em Prevenção e Combate a Incêndio, emissão e renovação de AVCB/CLCB, hidrantes, laudos e treinamentos com responsabilidade técnica (ART).
+          </p>
+
+          <div class="footer-art-seal">
+            <!-- Shield Icon -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Eng. José Luis • CREA-SP</span>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-col">
+          <h5>Navegação</h5>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#riscos">Por Que Contratar</a></li>
+            <li><a href="#servicos">Nossos Serviços</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#sobre">Eng. José Luis</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#faq">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Serviços -->
+        <div class="footer-col">
+          <h5>Serviços Principais</h5>
+          <ul class="footer-links">
+            <li><a href="#servicos">Projetos de Incêndio (PPCI)</a></li>
+            <li><a href="#servicos">Emissão de AVCB e CLCB</a></li>
+            <li><a href="#servicos">Adequação de Hidrantes</a></li>
+            <li><a href="#servicos">Projetos de Sprinklers</a></li>
+            <li><a href="#servicos">Laudos Técnicos com ART</a></li>
+            <li><a href="#servicos">Brigada de Incêndio (IT-17)</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 4: Contato & Plantão -->
+        <div class="footer-col">
+          <h5>Fale Conosco</h5>
+          <ul class="footer-links">
+            <li>
+              <a href="https://wa.me/5512997683642" target="_blank" rel="noopener noreferrer" style="color: #4ade80; font-weight: 700;">
+                WhatsApp: (12) 99768-3642
+              </a>
+            </li>
+            <li><span>São José dos Campos &amp; Região</span></li>
+            <li><span>Vale do Paraíba • Litoral Norte • SP</span></li>
+            <li><span style="font-size: 0.8rem; color: var(--text-dim);">Segunda a Sexta: 08h às 18h30</span></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Barra Inferior de Direitos & Responsabilidade -->
+      <div class="footer-bottom">
+        <div>
+          <p>© 2026 <strong>Zégenheiro</strong> - Engenharia de Segurança &amp; Combate a Incêndio. Todos os direitos reservados.</p>
+          <p style="font-size: 0.74rem; color: var(--text-dim); margin-top: 4px;">
+            Em conformidade com o Decreto Estadual SP nº 63.911/18, Instruções Técnicas do CBPMESP e normas da ABNT. ART registrada junto ao CREA-SP.
+          </p>
+        </div>
+        <div>
+          <a href="#inicio" style="color: var(--tech-cyan); text-decoration: none; font-weight: 600;">Voltar ao Topo ↑</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       BOTÃO FLUTUANTE DO WHATSAPP (CANTO INFERIOR DIREITO)
+       ====================================================================== -->
+  <a href="https://wa.me/5512997683642?text=Ol%C3%A1%20Eng.%20Jos%C3%A9%20Luis%2C%20estou%20no%20site%20da%20Z%C3%A9genheiro%20e%20gostaria%20de%20um%20or%C3%A7amento%20para%20regulariza%C3%A7%C3%A3o%20contra%20inc%C3%AAndio." class="floating-wa-btn" target="_blank" rel="noopener noreferrer" aria-label="Falar com o Eng. José Luis pelo WhatsApp">
+    <span class="floating-wa-tooltip">Fale agora com o Eng. José Luis</span>
+    <svg viewBox="0 0 24 24">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.174.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.42-.101.825z"/>
+    </svg>
+  </a>
+
+  <!-- ======================================================================
+       MODAL DE CONTATO / ORÇAMENTO RÁPIDO
+       ====================================================================== -->
+  <div class="modal-backdrop" id="contactModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar Modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="brand-identity" style="margin-bottom: 20px;">
+        <img src="assets/logo-symbol.svg" alt="Zégenheiro" class="brand-helmet-icon" style="width: 38px; height: 38px;">
+        <div class="brand-text-group">
+          <span class="brand-title" style="font-size: 1.35rem;">Zé<span class="red-accent">genheiro</span></span>
+          <span class="brand-subtitle" style="font-size: 0.58rem;">Orçamento Rápido</span>
+        </div>
+      </div>
+
+      <h3 class="hero-form-title" style="font-size: 1.25rem;">Falar com o Eng. José Luis</h3>
+      <p class="hero-form-desc">Preencha os campos abaixo para abrir a conversa estruturada no WhatsApp:</p>
+
+      <form id="modalQuoteForm">
+        <div class="form-group">
+          <label for="modalNome" class="form-label">Seu Nome / Empresa:</label>
+          <input type="text" id="modalNome" class="form-control" placeholder="Ex: Roberto Silva" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalTelefone" class="form-label">WhatsApp:</label>
+          <input type="tel" id="modalTelefone" class="form-control" placeholder="(12) 99999-9999" required>
+        </div>
+
+        <div class="form-group">
+          <label for="modalAssunto" class="form-label">Assunto Principal:</label>
+          <select id="modalAssunto" class="form-control" required>
+            <option value="Orçamento de Projeto de Incêndio (PPCI)">Orçamento de Projeto de Incêndio (PPCI)</option>
+            <option value="Emissão / Renovação de AVCB">Emissão / Renovação de AVCB</option>
+            <option value="Adequação de Hidrantes / Sprinklers">Adequação de Hidrantes / Sprinklers</option>
+            <option value="Notificação de Vistoria do Bombeiro">Notificação de Vistoria do Bombeiro</option>
+            <option value="Laudos Técnicos e ART">Laudos Técnicos e ART</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="modalMensagem" class="form-label">Observações / Cidade:</label>
+          <textarea id="modalMensagem" class="form-control" rows="2" placeholder="Cidade e detalhes do imóvel..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-form-submit">
+          <span>Iniciar Atendimento no WhatsApp</span>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
